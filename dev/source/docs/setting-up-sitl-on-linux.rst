@@ -109,6 +109,8 @@ JSBSim is a sophisticated flight
 simulator that is used as the core flight dynamics system for several
 well known flight simulation systems.
 
+
+
 In the same directory (your home directory) run these commands:
 
 ::
@@ -135,6 +137,9 @@ model than the default Rascal110 by specifying the model name using the
     sim_vehicle.py -f jsbsim:MyModel --console --map
 
 the model should be in the **Tools/autotest/aircraft/** directory.
+
+Advanced users can optionally replace this version of JSBSim (which stopped development in 2010) with the latest version of JSBSim by implementing the modifications as suggested at https://github.com/WillemEerland/ardupilot/tree/jsbsim
+
 
 FlightGear 3D View (Optional)
 -----------------------------
